@@ -1,2 +1,2 @@
 # easy-regex
-A library to use regex expressions without knowing it
+All regex validations you just ever wanted
