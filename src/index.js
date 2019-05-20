@@ -1,1 +1,3 @@
-console.log('Webpack is working!');
+'use strict'
+
+import emailValidation from './email/emailValidation'
