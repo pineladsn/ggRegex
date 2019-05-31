@@ -1,3 +1,2 @@
-'use strict'
-
-import emailValidation from './email/emailValidation'
+import emailValidation from './email/email-validation'
+import dateTimeValidation from './dateTime/datetime-validation'
