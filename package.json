@@ -1,7 +1,7 @@
 {
-  "name": "easy-regex",
-  "version": "1.0.0",
-  "description": "A library to use regex expressions without knowing it",
+  "name": "gg-regex",
+  "version": "1.0.1",
+  "description": "All regex validations you just ever wanted",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pineladsn/easy-regex.git"
+    "url": "git+https://github.com/pineladsn/ggRegex.git"
   },
   "keywords": [
     "regex"
@@ -17,9 +17,9 @@
   "author": "pineladsn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pineladsn/easy-regex/issues"
+    "url": "https://github.com/pineladsn/ggRegex/issues"
   },
-  "homepage": "https://github.com/pineladsn/easy-regex#readme",
+  "homepage": "https://github.com/pineladsn/ggRegex#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
