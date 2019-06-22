@@ -1,4 +1,7 @@
-import { VALID_DATE_RE, VALID_TIME_RE } from './datetime-re'
+import {
+    VALID_DATE_RE,
+    VALID_TIME_RE
+} from './datetime-re'
 
 export default class dateTimeValidation {
     /**
