@@ -1,0 +1,2 @@
+export const VALID_PHONE_BR_FORMAT_RE = /(?:\()[0-9]{2}(?:\))\s?[0-9]{4,5}(?:-)[0-9]{4}$/
+export const VALID_PHONE_BR_FORMAT_WITH_AREA_CODE_RE = /^(?:\+)[0-9]{2}\s?(?:\()[0-9]{2}(?:\))\s?[0-9]{4,5}(?:-)[0-9]{4}$/
