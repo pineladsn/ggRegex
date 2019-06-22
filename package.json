@@ -12,7 +12,15 @@
     "url": "git+https://github.com/pineladsn/ggRegex.git"
   },
   "keywords": [
-    "regex"
+    "regex",
+    "regexp",
+    "regular",
+    "expression",
+    "pattern",
+    "definition",
+    "composition",
+    "subexpression",
+    "combination"
   ],
   "author": "pineladsn",
   "license": "ISC",
