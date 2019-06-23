@@ -1,12 +1,15 @@
 {
   "name": "gg-regex",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "All regex validations you just ever wanted",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
+  "files": [
+    "dist/ggregex.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pineladsn/ggRegex.git"
