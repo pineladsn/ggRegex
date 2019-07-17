@@ -5,9 +5,11 @@ import pathValidation from './path/path-validation'
 import creditCardValidation from './creditCard/creditcard-validation'
 import passwordValidation from './password/password-validation'
 
-exports.emailValidation = emailValidation
-exports.dateTimeValidation = dateTimeValidation
-exports.phoneValidation = phoneValidation
-exports.pathValidation = pathValidation
-exports.creditCardValidation = creditCardValidation
-exports.passwordValidation = passwordValidation
+
+exports.printMsg = function() {
+    console.log("This is a message from the demo package");
+}
+
+exports.emailValidation = function(email) {
+    return emailValidation.emailIsValid(email);
+}
