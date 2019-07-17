@@ -1,6 +1,6 @@
 {
   "name": "gg-regex",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "All regex validations you just ever wanted",
   "main": "index.js",
   "scripts": {
