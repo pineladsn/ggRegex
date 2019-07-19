@@ -2,7 +2,7 @@
   "name": "gg-regex",
   "version": "1.0.12",
   "description": "All regex validations you just ever wanted",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
