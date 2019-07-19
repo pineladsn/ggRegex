@@ -10,7 +10,7 @@ module.exports = {
     ],
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'gg-regex.js',
+        filename: 'index.js',
         publicPath: '/dist/'
     },
     module: {

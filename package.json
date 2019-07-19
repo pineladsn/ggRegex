@@ -1,6 +1,6 @@
 {
   "name": "gg-regex",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "All regex validations you just ever wanted",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.config.js"
   },
   "files": [
-    "dist/gg-regex.js"
+    "dist/index.js"
   ],
   "repository": {
     "type": "git",
