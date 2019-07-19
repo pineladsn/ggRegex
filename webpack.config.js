@@ -3,7 +3,11 @@
 const path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname, 'src', 'index'),
+    entry: [
+        "core-js/modules/es.promise",
+        "core-js/modules/es.array.iterator",
+        path.join(__dirname, 'src', 'index'),
+    ],
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'ggregex.js',
