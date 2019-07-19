@@ -1,49 +1,43 @@
-import emailValidation from './email/email-validation'
-import dateTimeValidation from './dateTime/datetime-validation'
-import phoneValidation from './phone/phone-validation'
-import pathValidation from './path/path-validation'
-import creditCardValidation from './creditCard/creditcard-validation'
-import passwordValidation from './password/password-validation'
-
+import * as options from './options'
 
 exports.emailIsValid = function(email) {
-    return emailValidation.emailIsValid(email);
+    return options.emailValidation.emailIsValid(email)
 }
 
 exports.dateIsValid = function(date) {
-    return dateTimeValidation.dateIsValid(date);
+    return options.dateTimeValidation.dateIsValid(date)
 }
 exports.shorttimeIsValid = function(time) {
-    return dateTimeValidation.shorttimeIsValid(time);
+    return options.dateTimeValidation.shorttimeIsValid(time)
 }
 exports.fulltimeIsValid = function(time) {
-    return dateTimeValidation.fulltimeIsValid(time);
+    return options.dateTimeValidation.fulltimeIsValid(time)
 }
 
 exports.phoneIsValid = function(phone) {
-    return phoneValidation.phoneIsValid(phone);
+    return options.phoneValidation.phoneIsValid(phone)
 }
 exports.phoneWithAreaCodeIsValid = function(phone) {
-    return phoneValidation.phoneWithAreaCodeIsValid(phone);
+    return options.phoneValidation.phoneWithAreaCodeIsValid(phone)
 }
 
 exports.pathIsValid = function(path) {
-    return pathValidation.pathIsValid(path);
+    return options.pathValidation.pathIsValid(path)
 }
 
 exports.creditCardIsValid = function(creditcardNumber) {
-    return creditCardValidation.creditCardIsValid(creditcardNumber);
+    return options.creditCardValidation.creditCardIsValid(creditcardNumber)
 }
 
 exports.password8To20AlphanumericIsValid = function(password) {
-    return passwordValidation.password8To20AlphanumericIsValid(password);
+    return options.passwordValidation.password8To20AlphanumericIsValid(password)
 }
 exports.password4To8AlphanumericIsValid = function(password) {
-    return passwordValidation.password4To8AlphanumericIsValid(password);
+    return options.passwordValidation.password4To8AlphanumericIsValid(password)
 }
 exports.password4To8AlphanumericWeakIsValid = function(password) {
-    return passwordValidation.password4To8AlphanumericWeakIsValid(password);
+    return options.passwordValidation.password4To8AlphanumericWeakIsValid(password)
 }
 exports.password4To15AlphanumericIsValid = function(password) {
-    return passwordValidation.password4To15AlphanumericIsValid(password);
+    return options.passwordValidation.password4To15AlphanumericIsValid(password)
 }
